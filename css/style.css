@@ -16,3 +16,7 @@ dd {
 a{
     font-family: sans-serif; color:black
 }
+div{
+    text-align: center;
+    background: aqua;
+}
