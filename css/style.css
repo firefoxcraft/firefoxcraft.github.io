@@ -1,7 +1,6 @@
 #main {
    width: 800px;
-   margin: auto;
-      
+   margin: auto;      
 }
 body {
     font-family: sans-serif;
@@ -9,8 +8,7 @@ body {
 }
 
 ul{
-    border: 3px solid black;
-    border-bottom-right-radius: 
+    border: black solid 3px;
 }
 
 #ab {
