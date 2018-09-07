@@ -1,52 +1,46 @@
 body {
-	background: black;
-	font-family: sans-serif;
-	width: 1000px;
-	margin: auto;
+    width: 900px;
+    margin: auto;
+    font-family: sans-serif, aerial;
+    background: black;
 }
 
-.wrap {
-	height: 70px;
+.wrap h1 {
+    font-size: 50px;
 }
 
-.navigation {
-	height: 90px;
+.wrap h1, ul{
+    text-align: center;
 }
 
-.title{
-	font-size: 40px;
-	text-align: center;
+.wrap li {
+    display: inline;
+    text-decoration: none;
+    padding-right: 25px; 
 }
 
-ul a, .title, p {
-	color: gold;
+.wrap a, h1, p {
+    color: gold;
 }
 
-blockquote {
-	border-radius: 20px;
-    border: 3px solid white;
+.wrap a {
+    text-decoration: none;
 }
 
-ul {
-	list-style: none;
-	text-align: center;
+.wrap a:hover {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
-ul a {
-	text-decoration: none;
+.wrap ul {
+    border: 3px solid gold;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
 }
 
-ul a:hover {
-	text-decoration: underline;
-	font-size: 19px;
-	color: white;
-}
-
-p:hover {
-	color: white;
-}
-
-li {
-	display: inline;
-	padding-right: 50px;
+.content {
+    float: left;
+    width: 500px;
 }
