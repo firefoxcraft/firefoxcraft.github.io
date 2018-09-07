@@ -34,16 +34,25 @@ body {
 	padding-right: 30px;
 }
 
+.content {
+    border: 3px solid white;
+    border-radius: 20px;
+    float: left;
+	width: 500px;
+	height: 450px;
+
+
+}
+
 .content p {
 	color: white;
-	float: left;
-	width: 500px;
-
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 aside {
 	float: right;
-	width: 400px;
+	width: 450px;
 	color: gold;
 	border: 3px solid white;
 	border-radius: 20px;
