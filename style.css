@@ -1,46 +1,64 @@
 body {
-    width: 900px;
-    margin: auto;
-    font-family: sans-serif, aerial;
-    background: black;
-}
-
-.wrap h1 {
-    font-size: 50px;
-}
-
-.wrap h1, ul{
-    text-align: center;
-}
-
-.wrap li {
-    display: inline;
-    text-decoration: none;
-    padding-right: 25px; 
-}
-
-.wrap a, h1, p {
-    color: gold;
-}
-
-.wrap a {
-    text-decoration: none;
-}
-
-.wrap a:hover {
-    color: white;
-    font-size: 20px;
-    text-decoration: underline;
+	background: black;
+	width: 1000px;
+	margin: auto;
+	font-family: sans-serif, aerial;
 }
 
 .wrap ul {
-    border: 3px solid gold;
-    border-radius: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px; 
+	text-align: center;
+	border: 3px solid white;
+	border-radius: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-.content {
-    float: left;
-    width: 500px;
+.wrap a {
+	color: gold;
+	text-decoration: none;
+}
+
+.wrap a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.wrap h1 {
+	text-align: center;
+	color: gold;
+	font-size: 50px;
+}
+
+.wrap li {
+	display: inline;
+	padding-right: 30px;
+}
+
+.content p {
+	color: gold;
+	float: left;
+	width: 500px;
+
+}
+
+aside {
+	float: right;
+	width: 400px;
+	color: gold;
+	border: 3px solid white;
+	border-radius: 20px;
+}
+
+aside iframe {
+	padding-left: 50px;
+	padding-top: 30px;
+}
+
+aside p {
+	padding-left: 0px;
+	text-align: center;
+}
+
+#loc {
+	font-size: 20px;
 }
