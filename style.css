@@ -59,8 +59,11 @@ aside {
 }
 
 aside iframe {
-	padding-left: 50px;
+	padding-left: 70px;
 	padding-top: 30px;
+    width: 300px;
+    height: 300px;
+    border: 0;
 }
 
 aside p {
