@@ -21,12 +21,17 @@ body {
 	margin: auto;
 }
 
-.left, .right {
+.left {
 	float: left;
 	width: 425px;
 }
 
-img {
+.right {
+	float: right;
+	width: 425px;
+}
+
+.logo {
 	width: 250px;
 	height: 250px;
 	display: block;
@@ -67,13 +72,6 @@ a:hover {
 li {
 	display: inline;
 	padding: 30px;
-}
-
-h1 {
-	font-family: leaguespartan;
-	font-size: 80px;
-	text-align: center;
-	color: white;
 }
 
 p {
