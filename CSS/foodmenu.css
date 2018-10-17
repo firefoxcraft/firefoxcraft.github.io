@@ -1,6 +1,6 @@
 @font-face {
 	font-family: stencil;
-	src: url("fonts/STENCIL.TTF");
+	src: url("../fonts/STENCIL.TTF");
 }
 
 @font-face {
@@ -17,7 +17,12 @@ body {
 	margin: auto;
 }
 
-img {
+.menu {
+	width: 900px;
+	margin: auto;
+}
+
+.sitelogo {
 	width: 250px;
 	height: 250px;
 	display: block;
@@ -62,4 +67,31 @@ li {
 
 .foodmenu {
 	color: gold;
+}
+
+
+
+.menutitle {
+	font-family: stencil;
+	font-size: 55px;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-family: stencil;
+	color: white;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
