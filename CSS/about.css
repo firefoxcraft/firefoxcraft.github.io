@@ -39,9 +39,14 @@ body {
 	margin-right: auto;
 }
 
+.location {
+	width: 400px;
+	height: 400px;
+}
+
 .title {
 	font-family: stencil;
-	font-size: 50px;
+	font-size: 40px;
 	color: white;
 	text-align: center;
 }
@@ -77,6 +82,12 @@ li {
 p {
 	color: white;
 	font-size: 20px;
+}
+
+.locationtitle {
+	font-family: stencil;
+	color: white;
+	text-decoration: underline;
 }
 
 .about {
