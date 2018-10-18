@@ -1,6 +1,6 @@
 @font-face {
 	font-family: stencil;
-	src: url("fonts/STENCIL.TTF");
+	src: url("../fonts/STENCIL.TTF");
 }
 
 @font-face {
@@ -17,7 +17,25 @@ body {
 	margin: auto;
 }
 
+.subcontent {
+	width: 900px;
+	margin: auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
 img {
+	width: 300px;
+	height: 170px;
+}
+
+.site_logo {
 	width: 250px;
 	height: 250px;
 	display: block;
@@ -50,6 +68,10 @@ a {
 	text-decoration: none;
 }
 
+.contacts {
+	color: gold;
+}
+
 a:hover {
 	color: gold;
 	text-decoration: underline;
@@ -58,8 +80,4 @@ a:hover {
 li {
 	display: inline;
 	padding: 30px;
-}
-
-.contacts {
-	color: gold;
 }
