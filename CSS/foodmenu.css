@@ -70,14 +70,14 @@ li {
 
 
 
-.menutitle {
+.menuti {
 	font-family: stencil;
 	font-size: 55px;
 	color: white;
 	text-align: center;
 }
 
-h1 {
+.main {
 	font-family: stencil;
 	color: white;
 	text-align: center;
