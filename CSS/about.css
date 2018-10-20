@@ -83,6 +83,10 @@ p {
 	font-size: 20px;
 }
 
+.pad {
+	padding-top: 200px;
+}
+
 .locationtitle {
 	font-family: stencil;
 	color: white;

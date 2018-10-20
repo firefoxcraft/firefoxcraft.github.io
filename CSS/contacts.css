@@ -53,7 +53,7 @@ img {
 
 
 
-ul {
+.navbar {
 	text-align: center;
 	list-style: none;
 	border: 5px solid white;
@@ -76,7 +76,36 @@ a:hover {
 	text-decoration: underline;
 }
 
-li {
+.navbar li {
 	display: inline;
 	padding: 30px;
+}
+
+
+
+form label {
+	color: white;
+	font-size: 20px;
+}
+
+#ur_name {
+	width: 300px;
+}
+
+label {
+ 	display: block;
+}
+
+textarea {
+	width: 300px;
+	height: 200px
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul li {
+	padding-bottom: 20px; 
 }
