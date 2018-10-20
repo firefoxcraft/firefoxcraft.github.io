@@ -35,6 +35,20 @@ img {
 	height: 170px;
 }
 
+#fb {
+	width: 230px;
+	height: 130px;
+	padding-left: 70px;
+	padding-top: 20px;
+}
+
+#tw {
+	width: 230px;
+	height: 130px;
+	padding-right: 70px;
+	padding-top: 20px;
+}
+
 .site_logo {
 	width: 250px;
 	height: 250px;
